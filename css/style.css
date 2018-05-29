@@ -2,14 +2,41 @@
 /* CSS document */
 
 body {
+    background-color: bisque;
     margin: 0 auto;
-    background-color: lightsalmon;
+    color: white;
+ }
+#conteneur {
+    width: 80%;
+    margin: 0 auto conteneur;
+    width: 80%;
+    margin: 0 auto;
+    border:2px solid #fff;
+}
+
+header {
+    background: olive;
+    font-size: 6em;
+
     
 }
-header {
-    background:lightgreen;
-    font-size: 2em;
-}
 nav {
+    background: yellow;
+    font-size: 3em;
+}
+.un {
+    background: #333;
+    margin-bottom: 20px;
+    width: 367px;
+    height: 300px;
+    size: 10px;
+}
 
+section {
+    background: lightgreen;
+    float: right;
+}
+footer {
+    background: pink;
+    font-size: 4em;
 }
