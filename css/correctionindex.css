@@ -49,6 +49,10 @@ section {
 aside {
     background: #0e73e7;
 }
+.clear {
+    clear: both;
+}
 footer {
     background: #92517f;
+    height: 100px;
 }
