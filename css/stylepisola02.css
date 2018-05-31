@@ -19,6 +19,23 @@ header {
 nav {
     height: 150px;
     background: #e6891f;
+    text-align: center;
+}
+ul :hover {
+    background: darksalmon;
+    color: brown;
+}
+
+
+nav ul li {
+    display: inline-block;
+    background: white;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
 }
 
 #nav_gauche {
