@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>UI TILES/// 07</title>
+    <title>UI TILES/// 08</title>
     <style>
     
     body {
@@ -13,8 +13,8 @@
     }
     #wrapper {
         background: white;
-        width: 1200px;
-        height: 900px;
+        width: 1400px;
+        height: 1400px;
         margin: 0 auto;
     }
     header {
@@ -23,9 +23,9 @@
     }
     .haut_gauche {
         background:lightgray;
-        width: 300px;
+        width: 280px;
         height: 300px;
-        margin-left: 30px;
+        margin-left: 50px;
         float: left;
     }
     .haut_droite {
@@ -33,11 +33,35 @@
         width: 650px;
         height: 300px;
         float: right;
+        margin-right: 80px;
     }
     .clear {
         clear: both;
     }
-
+    .logo {
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+        float: right;
+        padding: 50px;
+    }
+     .gauche {
+        background: grey;
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+        float: left;
+        padding: 50px;
+        margin-left: 50px;
+        
+    }
+    .droite {
+        background: greenyellow;
+        width: 650px;
+        height: 300px;
+        float: right;
+        margin-right: 80px;
+    }
 
 
 
@@ -48,14 +72,31 @@
 <body>
     <div id="wrapper">
         <header>ADD COMMENTS</header>
-       <div class="haut_gauche">
-       </div>
+       <div class="haut_gauche"> <!-- 1ère ligne -->
+           <img src="img/paris_sg.jpg" alt="Psg" class="logo">
+       </div> <!-- fin 1ère ligne -->
        <div class="haut_droite">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium vel tempora nam doloribus voluptates fugit veritatis nisi voluptatibus, nemo expedita placeat debitis nulla modi est saepe dolorem beatae necessitatibus at.</p>
        </div>
        <div class="clear"></div>
-       <div>
-           
+       <div class="gauche"><!-- 2ème ligne -->
+            <img src="img/real.png" alt="Real Madrid">            
+       </div><!-- fin 2ème ligne -->
+       <div class="droite">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae quod similique cumque deleniti magni unde veniam quos, adipisci veritatis tempore dicta ea inventore corrupti, eligendi voluptate, et temporibus. Reprehenderit, vero.</p>
        </div>
+       <div class="gauche"><!-- 3ème ligne -->
+        <img src="img/real.png" alt="Real Madrid">            
+   </div><!-- fin 3ème ligne -->
+   <div class="droite">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae quod similique cumque deleniti magni unde veniam quos, adipisci veritatis tempore dicta ea inventore corrupti, eligendi voluptate, et temporibus. Reprehenderit, vero.</p>
+   </div>
+   <div class="gauche"><!-- 4ème ligne -->
+    <img src="img/real.png" alt="Real Madrid">            
+</div><!-- fin 4ème ligne -->
+<div class="droite">
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae quod similique cumque deleniti magni unde veniam quos, adipisci veritatis tempore dicta ea inventore corrupti, eligendi voluptate, et temporibus. Reprehenderit, vero.</p>
+</div>
     </div><!-- fin de wrapper -->
    
 
